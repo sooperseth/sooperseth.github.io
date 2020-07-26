@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            p{
+                float:right;
+                font-size: 20px;
+                font-family: monospace;
+                font-weight: bold;
+                color: purple;
+            }  
+            .img1{
+                width: 200px;
+                height: 200px;
+                
+            }  
+            .container{
+                border:5px solid skyblue;
+                text-align: center;
+                width:450px;
+                height: 350px;
+                margin: auto;
+                margin-top: 200px;
+                margin-bottom: auto;
+                background-color: rgb(191, 233, 250);
+            }
+            .sidebyside{
+                float:left;
+               
+                padding-left: 35px;
+                
+            }
+            a:hover{
+                
+                text-decoration: underline;
+                animation-play-state: paused;
+               
+            }
+            a{
+                text-decoration: none;
+                animation:blinkingText 1.2s infinite;
+            }
+            @keyframes blinkingText{
+                0%{     color: red;    }
+                49%{    color: red; }
+                60%{    color: transparent; }
+                 99%{    color:transparent;  }
+                100%{   color: red;    }
+            }
+            
+            .running{
+                width:150px;
+                height: 200px;
+                
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <p>Worried about type2 diabetes?
+                Good news! There are some things YOU can do to help! <a href="https://sooperseth.github.io">Click here!</a>
+            </p>
+            <div class="sidebyside">
+                <img class="img1"src="background4.jpg">
+                <img class="running" src="running person.jpg">
+                
+            </div>
+        </div>
+    </body>
+</html>
